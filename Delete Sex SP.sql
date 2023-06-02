@@ -1,0 +1,8 @@
+CREATE PROCEDURE DeleteSex
+  @Sex_ID int
+AS
+BEGIN
+  DELETE FROM Sex
+  WHERE Sex_ID = @Sex_ID
+END
+GO
